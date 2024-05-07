@@ -1,6 +1,6 @@
 const OpenAI = require( "openai");
-const { ChatCompletionMessageParam }= require("openai/resources");
 const { generatePrompt, generatePromptDetermine } =require( "./prompt");
+require('dotenv').config();
 
 const openai = new OpenAI({
     apiKey: process.env.OPENAI_KEY,
@@ -15,7 +15,7 @@ const run = async (name, history) => {
 
     const promtp = generatePrompt(name)
     const response = await openai.chat.completions.create({
-        model: "gpt-3.5-turbo",
+        model: "gpt-3.5-turbo-0125",
         messages: [
             {
                 "role": "system",
@@ -36,7 +36,7 @@ const runDetermine = async (history) => {
 
     const promtp = generatePromptDetermine()
     const response = await openai.chat.completions.create({
-        model: "gpt-3.5-turbo",
+        model: "gpt-3.5-turbo-0125",
         messages: [
             {
                 "role": "system",

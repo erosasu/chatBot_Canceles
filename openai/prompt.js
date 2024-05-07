@@ -5,11 +5,11 @@
 
 
 const Data_BASE= [
-    `- ID: CANCEL DE BAÑO CORREDIZO 6MM TEMPLADO (rio bravo) <120 de ancho: Opciones Los colores disponibles son Natural, Negro, Blanco, Brillante, Champaing.  Precio: $3400 pesos. o $3600 con pelicula para anchos menores a 120 cm y altura de 186 cm. Pago al recibir, Tiempo de entrega: 3 dias habiles, no es necesario pasar a tomar medidas`,
-    `- ID: CANCEL DE BAÑO CORREDIZO 6MM TEMPLADO (rio bravo) <130 de ancho: Opciones Los colores disponibles son Natural, Negro, Blanco, Brillante, Champaing.  Precio: $3650 pesos sin pelicula o $3900 con pelicula para anchos menores a 130 cm y altura de 186 cm. Pago al recibir, Tiempo de entrega: 3 dias habiles. Imagenes:[https://www.api.platvialum.com/fotos/6490fc33b844a5d0f55ab865-1712774778852.jpg, https://www.api.platvialum.com/fotos/6490fc33b844a5d0f55ab865-1712782646863.jpg ]`,
-    `- ID: CANCEL DE BAÑO CORREDIZO 6MM TEMPLADO (rio bravo) <140 de ancho: Opciones Los colores disponibles son Natural, Negro, Blanco, Brillante, Champaing.  Precio: $3800 pesos sin pelicula o $4050 con pelicula para anchos menores a 140 cm y altura de 186 cm. Pago al recibir, Tiempo de entrega: 3 dias habiles,  no es necesario pasar a tomar medidas`,
-    `- ID: CANCEL DE BAÑO CORREDIZO 6MM TEMPLADO (rio bravo) <150 de ancho: Opciones Los colores disponibles son Natural, Negro, Blanco, Brillante, Champaing.  Precio: $4000 pesos sin pelicula o $4300 con pelicula para anchos menores a 150 cm y altura de 186 cm. Pago al recibir, Tiempo de entrega: 3 dias habiles,  no es necesario pasar a tomar medidas`,
-    `- ID: CANCEL DE BAÑO CORREDIZO 6MM TEMPLADO EN ESCUADRA (rio bravo): Opciones Los colores disponibles son Natural, Negro, Blanco, Brillante, Champaing.  Precio: $5100 pesos. o $5500 con pelicula para anchos menores a 100 x 100 cm y altura de 186 cm. Pago al recibir. Tiempo entrega: 6 dias habiles,  no es necesario pasar a tomar medidas`,
+    `- ID: CANCEL DE BAÑO CORREDIZO 6MM TEMPLADO (rio bravo) <120 de ancho: Opciones Los colores disponibles son Natural, Negro, Blanco, Brillante, Champaing.  Precio: $3500 pesos. o $3700 con pelicula para anchos menores a 120 cm y altura de 186 cm. Pago al recibir, Tiempo de entrega: 3 dias habiles, no es necesario pasar a tomar medidas`,
+    `- ID: CANCEL DE BAÑO CORREDIZO 6MM TEMPLADO (rio bravo) <130 de ancho: Opciones Los colores disponibles son Natural, Negro, Blanco, Brillante, Champaing.  Precio: $3700 pesos sin pelicula o $3900 con pelicula para anchos menores a 130 cm y altura de 186 cm. Pago al recibir, Tiempo de entrega: 3 dias habiles. Imagenes:[https://www.api.platvialum.com/fotos/6490fc33b844a5d0f55ab865-1712774778852.jpg, https://www.api.platvialum.com/fotos/6490fc33b844a5d0f55ab865-1712782646863.jpg ]`,
+    `- ID: CANCEL DE BAÑO CORREDIZO 6MM TEMPLADO (rio bravo) <140 de ancho: Opciones Los colores disponibles son Natural, Negro, Blanco, Brillante, Champaing.  Precio: $3900 pesos sin pelicula o $4100 con pelicula para anchos menores a 140 cm y altura de 186 cm. Pago al recibir, Tiempo de entrega: 3 dias habiles,  no es necesario pasar a tomar medidas`,
+    `- ID: CANCEL DE BAÑO CORREDIZO 6MM TEMPLADO (rio bravo) <150 de ancho: Opciones Los colores disponibles son Natural, Negro, Blanco, Brillante, Champaing.  Precio: $4100 pesos sin pelicula o $4300 con pelicula para anchos menores a 150 cm y altura de 186 cm. Pago al recibir, Tiempo de entrega: 3 dias habiles,  no es necesario pasar a tomar medidas`,
+    `- ID: CANCEL DE BAÑO CORREDIZO 6MM TEMPLADO EN ESCUADRA (rio bravo): Opciones Los colores disponibles son Natural, Negro, Blanco, Brillante, Champaing.  Precio: $5200 pesos. o $5600 con pelicula para anchos menores a 100 x 100 cm y altura de 186 cm. Pago al recibir. Tiempo entrega: 6 dias habiles,  no es necesario pasar a tomar medidas`,
     `- ID: CANCEL DE BAÑO CORREDIZO 9MM TEMPLADO BACALAR (Corredizo): herrajes de acero inoxidable. Precio: $5500 pesos para anchos menores a 135 cm. Tiempo de entrega: 6 dias habiles`,
     `- ID: CANCEL DE BAÑO CORREDIZO 9MM TEMPLADO ABATIBLE: Herrajes satinados o color cromados. Para anchos menores a 135 cm. y altura de 190 cm. Precio $4,500 en vidrio claro con posibilidad de esmerilar por $500. Tiempo entrega: 6 dias habiles. Imagenes:[https://www.api.platvialum.com/fotos/6490fc33b844a5d0f55ab865-1712783234516.png]`,
     `- ID: CANCEL DE BAÑO CORREDIZO 9MM TEMPLADO ABATIBLE: Herrajes satinados o color cromados. Para anchos menores a 120 cm. y altura de 182 cm. Precio $4,000 en vidrio claro con posibilidad de esmerilar por $400. Tiempo entrega: 6 dias habiles. Imagenes:[https://www.api.platvialum.com/fotos/6490fc33b844a5d0f55ab865-1712783234516.png]`,
@@ -27,13 +27,13 @@ const Data_BASE= [
     '- ID: DIFERENCIA ENTRE PELICULA ESMERILADA Y ESMERILADO: el esmerilado es un proceso de impregnar arena en el vidrio para dejarlo opaco de un lado permanentemente, la película es un vinil que se adhiere que hace un efecto similar ',
     '- ID: MESES SIN INTERESES: Aumenta comisiones',
     `- ID:  Canceles corredizo 6mm (altura 1.85 m):
-                                            <1.20=$3400 o $3600 c/película,
-                                            <1.30=$3650 o $3900 c/película,
-                                            <1.40=$3800 o $4050 c/película,
-                                            <1.50=$4000 o $4,300 c/película,
-                                            <1.60 =$4400 o $4,700 c/película`,
+                                            <1.20=$3500 o $3700 c/película,
+                                            <1.30=$3700 o $3900 c/película,
+                                            <1.40=$3900 o $4100 c/película,
+                                            <1.50=$4100 o $4,300 c/película,
+                                            <1.60 =$4500 o $4,800 c/película`,
     `-ID: Canceles abatibles 9mm (altura 1.90 m):
-                                            <1.20=$4500 o $4700 c/película
+                                            <1.20=$4500 o $4800 c/película
                                             <1.30=$4900 o $5100 c/película
                                             <1.40=$5200 o $5250 c/película
                                             <1.50=$5500 o $5,800 c/película
@@ -100,6 +100,7 @@ INSTRUCCIONES PARA LA INTERACCIÓN:
             2. Para Cotizar con tu propia descripcion de producto y medidas escribe *cotizar*',    
             3. Para ver lista de precios de canceles de baño escribe *lista*,
             4. Para recibir atención de una persona porfavor escribe *atencion*
+- El costo para acudir al domicilio de un cliente para hacerle una cotizzación es de 250 pesos, sugerirle pasarnos fotos y medidas para hacerle una cotización sin costo
 
 DIRECTRICES PARA RESPONDER AL CLIENTE:
 - Tu objetivo principal responder las dudas de cliente acerca de los productos que ofrecemos. Destaca la oferta por tiempo limitado y los beneficios de los producto.
@@ -118,8 +119,6 @@ DIRECTRICES PARA RESPONDER AL CLIENTE:
  * @returns 
  */
 const generatePrompt = (name) => {
-    
-    
     return PROMPT.replaceAll('{customer_name}', name).replaceAll('{context}', Data_BASE)
 }
 /**
